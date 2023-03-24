@@ -1,0 +1,16 @@
+Read Me File
+For this application you will need to download the Ardunio IDE and Visual Studio.You will need to download the libaries for the Zumo from the IDE and download the board fro mthe Ardunio website from this link: https://www.pololu.com/docs/0J63/5.2 .
+
+Stage 1 - Manual:
+The file contains a UI file which will contain the controls for the robot.To access these controls you will need to open the windows form app and run the code using the run button at the to of the screen
+this will ope na control panel which contains 6 buttons in total with only 4 being useful in this mode.Use the forward backwards left and right buttons to control the robots direction and speed.For the robot
+code there will be a file that allows that will need to be loaded onto the robot using the usb calbe and after the robot is turned on it will be able to use these controls.
+
+Stage 2 - Semi-Manual:
+For stage 2 the file will contains a the code which will be needed to be uploaded to the ardunio using the ardunio software.You will also need the UI from stage one so boot that up in the same way as in Stage 1
+by loading up in Visual Studio Code and pressing the run botton at the top of the screen.After the you will be using the 90 degrees left and 90 degree right button to turn when the robot reaches a dead end.To start the robot place the robot inbetwee nthe white lines at the start of the grid and press the A button on the robot to start the robot.
+
+
+Stage 3 - Automatic:
+To use this mode upload the code to the zumo using a usb cable.Once the code has finished uploading place the robot at the start of the maze inbetween the white lines and press the A button.The robot will do the maze its self and will function on its own.The robot if it detects 
+a object will make a sound and point in the direction of the object.
